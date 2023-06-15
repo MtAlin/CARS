@@ -1,0 +1,177 @@
+.swiper1 {
+  width: 100%;
+  height: 33rem;
+  margin: 20px 0;
+}
+
+.swiper1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.swiper1 .swiper-pagination-bullet {
+  background: rgb(28, 1, 1) !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.swiper1 .swiper-pagination-bullet-active {
+  background: red !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+#noutati .swiper-pagination {
+  bottom: -5px !important;
+  color: rgb(7, 24, 177);
+  /* font-size: xx-large; */
+}
+.swiper-button-next.swiper-right1 {
+  color: rgb(250, 248, 248) !important;
+  background-color: red;
+  right: calc(100% - 95%) !important;
+  top: 39% !important;
+  width: 40.22px;
+  height: 48px;
+}
+
+.swiper-button-prev.swiper-left1 {
+  top: 39% !important;
+  left: calc(100% - 95%);
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1rem !important;
+}
+.swiper-button-prev.swiper-left1:after {
+  color: rgb(250, 248, 248) !important;
+  background-color: red;
+  width: 40.22px !important;
+  height: 48px !important;
+}
+
+/* swiper2 css */
+.swiper2 {
+  width: 100%;
+  height: 25rem;
+  margin: 20px 0;
+}
+
+.swiper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 90%;
+}
+
+.swiper2 .swiper-button-prev:after {
+  color: rgb(255, 255, 255) !important;
+  background-color: red;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 45% !important ;
+}
+.swiper2 .swiper-button-prev {
+  left: 10px !important;
+  background: none;
+}
+.swiper2 .swiper-button-next.swiper-right2 {
+  width: 40.22px !important;
+  height: 48px !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: red;
+}
+.swiper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 90%;
+  opacity: 1;
+}
+.swiper2 .swiper-slide-active {
+  z-index: 1;
+  opacity: 1;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+#proiecte .swiper-pagination {
+  bottom: 10px !important;
+}
+.swiper2 .swiper-pagination-bullet {
+  background: rgb(28, 1, 1) !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.swiper2 .swiper-pagination-bullet-active {
+  background: red !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+/* .swiper-pagination-bullet-active:after {
+  background: rgb(45, 17, 135) !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+} */
+/* @media only screen and (min-width: 580px) {
+  .swiper-button-next.swiper-right1 {
+    color: rgb(250, 248, 248) !important;
+    background-color: red;
+    right: calc(100% - 95%) !important;
+    top: 45% !important;
+  }
+  .swiper-button-prev.swiper-left1 {
+    top: 45% !important;
+    left: calc(100% - 95%);
+  }
+} */
+@media only screen and (min-width: 761px) {
+  .swiper-button-next.swiper-right1 {
+    color: rgb(250, 248, 248) !important;
+    background-color: red;
+    right: calc(100% - 98%) !important;
+    top: 39% !important;
+    width: 40.22px;
+    height: 48px;
+  }
+  .swiper-button-prev.swiper-left1 {
+    top: 39% !important;
+    left: calc(100% - 98%);
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 1rem !important;
+  }
+  .swiper-button-prev.swiper-left1:after {
+    color: rgb(250, 248, 248) !important;
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .swiper2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 90%;
+    opacity: 0.3;
+  }
+  .swiper2 .swiper-slide-active {
+    z-index: 1;
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1) !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .swiper-button-next.swiper-right1 {
+    color: rgb(250, 248, 248) !important;
+    background-color: red;
+    right: calc(100% - 94%) !important;
+    top: 45% !important;
+    width: 40.22px;
+    height: 48px;
+  }
+  .swiper-button-prev.swiper-left1 {
+    top: 45% !important;
+    left: calc(100% - 94%);
+  }
+}
